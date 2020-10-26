@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html>
+<title>Shashank Motruri</title>
+<head>
+    <!--CSS Files-->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/media.css" />
+        <link rel="stylesheet" href="assets/css/background.css" />
+        <link rel="stylesheet" href="assets/css/gif.css" />
+        <link rel="stylesheet" href="assets/css/preloader.css" />
+        <link rel="stylesheet" href="assets/css/tabs.css" />
+
+        <!--Jquery Files-->
+        <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
+        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width , initial-scale=1,user-scalable = no  /">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    
+</head>
+
+<body style="margin-top:0">
+    <!--Preload-->
+    <div id="preloader">
+        <div>
+        <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+        </div>
+    </div>
+
+
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <!--Header-->
+        <header id="header">
+            <h1>
+                <a href="../shashankmotruri/index.html" class="author" ><span class="name" style="font-weight: bold;font-size: 60%;">Shashank Motruri</span></a>
+            </h1>
+            
+            <nav class="links">
+                <ul>
+                    <li><a href="#Aboutme" >About</a></li>
+					          <li><a href="#blog" >Blog</a></li>
+                    <li><a href="#" >Projects</a></li>
+                    <li><a href="#footer" >Contact</a></li>
+
+                    <button aria-label="navbar button" class="nav shadow open" id="nav_id" onclick="myNav()" >   
+                            <div id="nav-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                    </button>
+
+                <nav class="nav-content">
+                        <a class="nav-item about" href="#Aboutme">
+                            <span class="icon icon-info-circled"></span>
+                            <span class="name">About</span>
+                        </a>
+                        <a class="nav-item home" href="#blog">
+                            <span class="icon icon-home"></span>
+                            <span class="name">Blog</span>
+                        </a>
+                        <a class="nav-item projects" href="#">
+                            <span class="icon icon-gamepad"></span>
+                            <span class="name">Projects</span>
+                        </a>
+                        <a class="nav-item resume" href="#footer">
+                            <span class="icon icon-doc-text-inv"></span>
+                            <span class="name">Contact</span>
+                        </a>
+                </nav>
+
+                <div class="nav-overlay"></div>
+          
+            </nav>
+        </ul>
+        </header>
+
+
+  
+        <!--Main-->
+        <div id="main">
+
+            <article class="post">
+                <header>
+                    <div class="title">
+                        <h2 style="font-size: 2em"><a href="#">Shashank <span class="Motruri" >Motruri</span></a></h2>
+                    </div>
+                    <div class="meta main-image-container">
+                        <!--Profile photo-->
+                        <img class="main-image" src="assets/images/shashank.jpeg" alt="">
+                    </div>
+                </header>
+
+            </article>
+        </div>
+
+        <!--Gif-->    
+<div class="container">
+    <div class="lcd-light"></div>
+    <div class="monitor"></div>
+    <div class="monitor-neck"></div>
+    <div class="monitor-base"></div>
+    <div class="desk"></div>
+    <div class="tower"></div>
+    <div class="chair-back"></div>
+    <div class="chair-bottom"></div>
+    <div class="clock">
+      <div class="hour"></div>
+      <div class="minute"></div>
+    </div>
+    <div class="pillow"></div>
+    <div class="bed"></div>
+    <div class="human-wrapper">
+      <div class="human">
+        <div class="head">
+          <div class="eyes"></div>
+        </div>
+        <div class="torso">
+          <div class="l-thigh">
+            <div class="l-lower-leg"></div>
+          </div>
+          <div class="r-thigh">
+            <div class="r-lower-leg"></div>
+          </div>
+          <div class="r-upper-arm">
+            <div class="r-lower-arm"></div>
+          </div>
+          <div class="l-upper-arm">
+            <div class="l-lower-arm"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+       
+
+        <!--Who Am I-->
+        <div class="text-wrap" id="Aboutme">
+            <p><span>WHO AM I ?</span></p>
+            <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+        </div>
+
+       
+
+        <!--Tabs-->
+        
+        <h1 style="font-family: cursive;"></h1>
+<div class="accordion">
+  <ul>
+    <li tabindex="1">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-university' style='font-size:24px'></i></div>
+          <div class="content">
+            <h2>Computer Science</h2>
+            <p>I'm a Computer Science Engineer (B.Tech.) </p>
+            <a data-fancybox data-src="#cs" href="javascript:;">Read more</a>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li tabindex="2">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-edit' style='font-size:24px'></i></div>
+          <div class="content">
+          <h2>Designer</h2>
+            <p>I'm also a Adobe Illustraor and Web Designer</p>           
+            <a data-fancybox data-src="#cbs" href="javascript:;">Read more</a>
+        </div>
+        </div>
+      </div>
+    </li>
+    <li tabindex="3">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-shield-alt' style='font-size:24px'></i></div>          
+          <div class="content">
+          <h2>Ethical Hacker</h2>
+          <p>I'm also a beginner in Ethical Hacking.</p>
+            <a data-fancybox data-src="#eh" href="javascript:;">Read more</a>
+        </div>
+        </div>
+      </div>
+    </li>
+    <li tabindex="4">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-laptop' style='font-size:24px'></i></div>          
+          <div class="content">
+          <h2>Web Developer</h2>
+          <p>I'm also a Web Developer.</p>
+            <a data-fancybox data-src="#wd" href="javascript:;">Read more</a>
+        </div>
+        </div>
+      </div>
+    </li>
+    <li tabindex="5">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-code' style='font-size:24px'></i></div>       
+          <div class="content">
+          <h2>Competitive Coder</h2>
+          <p>I'm also a Competitive Coder.</p>
+            <a data-fancybox data-src="#pe" href="javascript:;">Read more</a>
+        </div>
+        </div>
+      </div>
+    </li>
+    <li tabindex="6">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-file' style='font-size:24px'></i></div>       
+          <div class="content">
+            <h2>Blogger</h2>
+            <p>I really like to write stories of my work.</p>
+            <a data-fancybox data-src="#ml" href="javascript:;">Read more</a>
+        </div>
+        </div>
+      </div>
+    </li>
+     <li tabindex="7">
+      <div>
+        <div class="btn">
+          <div class="number"><i class='fa fa-leaf' style='font-size:24px'></i></div>
+          <div class="content">
+          <h2>Machine Learning</h2>
+          <p>I am also a Machine Learning Entusiast.</p>
+            <a data-fancybox data-src="#cl" href="javascript:;">Read more</a>
+        </div>
+        </div>
+      </div>
+    </li>   
+  </ul>
+</div>
+
+<div style="display: none;" id="cs">
+	<h2 ><i class='fa fa-university' style='font-size:24px;'></i> Computer Science</h2>
+	<p style="text-align: justify;"> Presently, I am 2nd Year UnderGraduate at Indian Institute of Information Technology Sri City.</p>
+</div>
+<div style="display: none;" id="cbs">
+	<h2><i class='fa fa-edit' style='font-size:24px'></i> Designer</h2>
+	<p style="text-align: justify;"> I do Posters and Banners.And also a UI Designer. 
+	</p>
+</div>
+<div style="display: none;" id="eh">
+	<h2><i class='fa fa-shield-alt' style='font-size:24px'></i> Ethical Hacker</h2>
+	<p  style="text-align: justify;">I have Basic knowledge On Kali Linux.
+</p>
+</div>
+<div style="display: none;" id="wd">
+	<h2><i class='fa fa-laptop' style='font-size:24px'></i> Web Developer</h2>
+	<p  style="text-align: justify;">I'm a Front End Developer stil exploring new stuff.
+  </p>
+</div>
+<div style="display: none;" id="pe">
+	<h2><i class='fa fa-code' style='font-size:24px'></i> Competitive Coder</h2>
+	<p  style="text-align: justify;"> Codechef , Codeforces , Leetcode , HackerRank are the platforms that I had exlpored so far. 
+	</p>
+</div>
+<div style="display: none;" id="ml">
+  <h2><i class='fa fa-file' style='font-size:24px'></i> Blogger</h2>
+	<p  style="text-align: justify;"> I write blogs on the work I have done.You can check on medium.
+	</p>
+</div>
+<div style="display: none;" id="cl">
+    <h2><i class='fa fa-leaf' style='font-size:24px'></i> Machine Learning Enthusiast</h2>
+  <p  style="text-align: justify;"> Still to de Learned...
+  </p>
+</div>
+
+  
+<!--Tabs End-->
+
+<!--Blog posts-->
+<section id="blog" class="blog">
+  <div class="blog__header">
+    <h2 class="blog__header2">Medium
+      <span class="blog__header2Span">posts</span>
+    </h2>
+  </div>
+  <ul class="blog__slider">
+    Posts go here
+  </ul>
+  <!--
+  <ul class="blog__counter">
+    <li class="blog__counterItem blog__counterItem-active"></li>
+  </ul>
+  -->
+</section>
+
+  <!-- Site footer -->
+    <footer class="site-footer" id="footer">
+      <div class="__container">
+        <div class="__row">
+          <div class="col-xs-6 col-md-3">
+        
+            <h2>About</h2>
+            <p>
+                <a href="#" class="solid icon fa fa-birthday-cake">&nbsp;4 June 2002</a><br>
+                <a href="http://www.iiits.ac.in/" target="_blank" class="solid icon fa fa-university">&nbsp; Indian Institute of Information Technology, Sri City</a><br>
+                <a href="https://goo.gl/maps/7i1irPziozDV7qEe8" target="_blank" class="icon solid fa fa-map-marker">&nbsp; Andhra Pradesh, India</a>
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h2>Find Me On</h2>
+            <p>
+                <a href="mailto:motrurishashank000@gmail.com" target="_blank" class="icon solid fa fa-envelope social-link-box" ><span class="label">Email</span><span class="social-link md-tooltip md-tooltip--right" data-md-tooltip="Email">motrurishashank000@gmail.com</span></a><br>
+                <a href="#" class="icon solid fa fa-phone social-link-box"><span class="label">Phone</span><span class="social-link md-tooltip md-tooltip--right" data-md-tooltip="Phone">+91 7981050708</span></a><br>
+                <a href="https://github.com/shashankmotruri" target="_blank" class="icon brands fa fa-github social-link-box"><span class="label">Github</span><span class="social-link md-tooltip md-tooltip--right" data-md-tooltip="GitHub">@shashankmotruri</span></a><br>
+                <a href="https://twitter.com/_iM_Shashank" target="_blank" class="icon brands fa fa-twitter social-link-box"><span class="label">Twitter</span><span class="social-link md-tooltip md-tooltip--right" data-md-tooltip="Twitter">@_iM_Shashank</span></a><br>
+                <a href="https://www.linkedin.com/in/shashank-motruri-3111a0196" target="_blank" class="icon brands fa fa-linkedin social-link-box"><span class="label">LinkedIn</span><span class="social-link md-tooltip md-tooltip--right" data-md-tooltip="LinkedIn">@shashankmotruri</span></a><br>
+               
+            </p>
+          </div>
+        </div>
+      </div><br><br>
+    
+      <div class="__container">
+        <div class="__row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 shashankmotruri. All Rights Reserved.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+        <!--Scripts-->
+    <script src="assets/javascript/script.js"> </script>
+    <script src="assets/javascript/gif.js"> </script>
+    <script src="assets/javascript/textwrap.js"> </script>
+    <script src="assets/javascript/tabs.js"> </script>
+
+    <script src="assets/javascript/jquery.fancybox.min.js"> </script>
+    <script src="assets/javascript/jquery.min.js"> </script>
+
+</body>
+
+
+</html>
