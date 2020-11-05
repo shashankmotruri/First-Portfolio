@@ -89,3 +89,33 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@sha
       document.querySelector('.blog__slider').innerHTML = output
 })
 
+
+ 
+
+ //projects
+ function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(1000);
+  
+  $('.Projects').hide();
+  $('.projects-button').on('click', function(){
+    $(this).next().slideToggle(400);
+    $(this).toggleClass('active');
+    $(this).text('Projects Viewed');
+  });
+}
+
+$(document).ready(main);
+
+
+//Smooth scrolling class
+
+document.querySelectorAll('ul li a').forEach((link) => {
+  function scrollTo(e) {
+    e.preventDefault;
+    const id = e.target.getAttribute('href');
+    document.querySelector(`${id}`).scrollIntoView();
+  }
+  link.addEventListener('click', scrollTo);
+})
+

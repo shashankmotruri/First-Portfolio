@@ -42,9 +42,9 @@
             
             <nav class="links">
                 <ul>
-                    <li><a href="#Aboutme" >About</a></li>
+                    <li><a href="#about-me-container">About</a></li>
 					          <li><a href="#blog" >Blog</a></li>
-                    <li><a href="#" >Projects</a></li>
+                    <li><a href="#Projects" >Projects</a></li>
                     <li><a href="#footer" >Contact</a></li>
 
                     <button aria-label="navbar button" class="nav shadow open" id="nav_id" onclick="myNav()" >   
@@ -59,7 +59,7 @@
                     </button>
 
                 <nav class="nav-content">
-                        <a class="nav-item about" href="#Aboutme">
+                        <a class="nav-item about" href="#about-me-container">
                             <span class="icon icon-info-circled"></span>
                             <span class="name">About</span>
                         </a>
@@ -67,7 +67,7 @@
                             <span class="icon icon-home"></span>
                             <span class="name">Blog</span>
                         </a>
-                        <a class="nav-item projects" href="#">
+                        <a class="nav-item projects" href="#Projects">
                             <span class="icon icon-gamepad"></span>
                             <span class="name">Projects</span>
                         </a>
@@ -142,13 +142,20 @@
         </div>
        
 
+
+
+    <!--About Me-->
+<div id="about-me-container">
+
+  <h2 class="blog__header2 about-me-content">About
+    <span class="blog__header2Span">Me</span>
+  </h2>
+  
         <!--Who Am I-->
         <div class="text-wrap" id="Aboutme">
             <p><span>WHO AM I ?</span></p>
             <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
         </div>
-
-       
 
         <!--Tabs-->
         
@@ -280,6 +287,16 @@
   
 <!--Tabs End-->
 
+
+
+
+</div>
+<!--About -me container end-->
+
+
+
+
+
 <!--Blog posts-->
 <section id="blog" class="blog">
   <div class="blog__header">
@@ -296,6 +313,50 @@
   </ul>
   -->
 </section>
+
+
+<!--Projects-->
+
+<div class="Projects-wrapper" id="Projects">
+
+<h1 style="text-align:center;">Projects</h1>
+<div class='skillset'>
+  <div class='skill-html'>
+    <h1>Web Development</h1>
+    <p class='description'>
+      <div class='projects-button'>Recent Projects</div>
+      <ul class='Projects'>
+        <li>Movies app (React.js)</li>
+        <li>IEEE IIIT SRI CITY website</li>
+      </ul>
+    </p>
+  </div>
+
+  <div class='skill-js'>
+    <h1>Adobe Designs</h1>
+    <p class='description'>
+      <div class='projects-button'>Recent Projects</div>
+      <ul class='Projects'>
+        <li>Will be updates Soon ....</li>
+      </ul>
+    </p>
+  </div>
+
+  <div class='skill-jquery'>
+    <h1>AI & ML</h1>
+    <p class='description'>
+      <div class='projects-button'>Recent Projects</div>
+      <ul class='Projects'>
+        <li>Coming soon...</li>
+      </ul>
+    </p>
+  </div>
+</div>
+   
+</div>
+
+
+
 
   <!-- Site footer -->
     <footer class="site-footer" id="footer">
@@ -334,10 +395,10 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="facebook" target="_blank" href="https://m.facebook.com/shashank.motruri.1"><i class="fab fa-facebook"></i></a></li>
+              <li><a class="twitter" target="_blank" href="https://twitter.com/_iM_Shashank?s=09"><i class="fab fa-twitter"></i></a></li>
+              <li><a class="dribbble" target="_blank" href="https://github.com/shashankmotruri"><i class="fab fa-git"></i></a></li>
+              <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/shashank-motruri-3111a0196"><i class="fab fa-linkedin"></i></a></li>   
             </ul>
           </div>
         </div>

@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
+html {
+  scroll-behavior:smooth;
+}
 html,body,head,header,p{
     margin: 0;
 	padding: 0;
@@ -112,7 +114,7 @@ a {
 #preloader > div{
   position: fixed;
   top: 50%;
-  left: 40%;
+  left: 45%;
   bottom: 50%;
   right: 50%;
 }
@@ -604,6 +606,23 @@ input[type="button"]
   border: none;
   outline:none;
   border-style: none;
+}
+
+/*
+------------------------------
+        About Me
+------------------------------
+*/
+#about-me-container {
+  padding-top: 0.1em;
+  padding-bottom: 1em;
+}
+.about-me-content{
+  text-align: center;
+
+}
+#Aboutme{
+  margin-top: 10em!important;
 }
 /*
 ------------------------------
@@ -1233,8 +1252,8 @@ ul{
 .social-icons.size-sm a
 {
   line-height:34px;
-  height:34px;
-  width:34px;
+  height:38px;
+  width:38px;
   font-size:14px
 }
 .social-icons :nth-child(1):hover
@@ -1247,7 +1266,7 @@ ul{
 }
 .social-icons :nth-child(3):hover
 {
-  background-color:#007bb6
+  background-color:#3c3b3b
 }
 .social-icons :nth-child(4):hover
 {
@@ -1282,8 +1301,70 @@ div.col-xs-6:nth-child(2) {
 .social-icons {
   /* margin-top: 3px; */
   margin-top: -1.5em;
-  margin-left: 14em;
+  margin-left: 0em;
 }
 .copyright-text {
-  margin-left: 5em;
+  margin-left: 4em;
+}
+
+
+
+/*
+    Projects
+*/
+#Projects{
+  padding-top: 6em;
+}
+.skillset {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-html {
+  background-color: #E55126;
+}
+
+.skill-js {
+  background-color: #E5A227;
+}
+
+.skill-jquery {
+  background-color: #0C73B8;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery {
+  width: 270px;
+  padding: 1em 3em 2em 2em;
+  margin: 0.5em;
+  color: whitesmoke;
+}
+
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
+
+.a:hover{
+  text-decoration: none !important;
 }
