@@ -115,7 +115,7 @@ a {
   position: fixed;
   top: 50%;
   left: 45%;
-  bottom: 50%;
+  bottom: 55%;
   right: 50%;
 }
 /*
@@ -1281,7 +1281,10 @@ ul{
     font-weight:600
   }
 }
-
+.social-icons {
+  text-align: center !important;
+  margin-left: 30% !important;
+  }
 div.col-xs-6:nth-child(1) {
   margin-left: 5em;
 }
@@ -1307,64 +1310,234 @@ div.col-xs-6:nth-child(2) {
   margin-left: 4em;
 }
 
+.skill-html,.skill-js,.skill-jquery{
+  display: block;
+  padding: 1em;
+  height: 20em !important;
+  padding-top: 2em;
+}
+.skill-html{
+  background-color: #00aced;
+}
+.skill-js{
+  background-color: #c55956;
+}
+.skill-jquery{
+  background-color: yellow;
+}
+.carousel-cell {
+  width: 40%;
+  }
 
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+  }
+  .flickity-page-dots .dot {
+    background: #fff !important;
+    }
 
+    
+    
+    
+    
 /*
-    Projects
+
+      My Skills
+
 */
-#Projects{
-  padding-top: 6em;
+.MySkills-container {
+  padding: 3em;
+  justify-content:center;
+  
 }
-.skillset {
+.MySkills{
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+.MySkills > svg:nth-child(1) {
+ margin: auto;
+  }
+.hidden {
+  display: none;
 }
 
-.skill-html {
-  background-color: #E55126;
+
+/*Skill Bar*/
+
+
+ 
+
+.skill-bar-container {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
 }
 
-.skill-js {
-  background-color: #E5A227;
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.skill-jquery {
-  background-color: #0C73B8;
+.bar__container {
+  background-color:#63cdda;
+  margin-bottom: 20px;
+  
+
+}
+  .bar__container:last-child {
+    margin-bottom: 0;
+  }
+
+
+.bar__name {
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+
+  padding: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+ 
 }
 
-.skill-html,
-.skill-js,
-.skill-jquery {
-  width: 270px;
-  padding: 1em 3em 2em 2em;
-  margin: 0.5em;
-  color: whitesmoke;
+.skill-1 {
+  position: relative;
+  height: 100%;
+  
+
+}
+.bar__container-1{
+  width: 90%;
+  margin:5px
+}
+  .skill-1::after{
+    content: '90%';
+    position: absolute;
+    right: 0px;
+  }
+
+.skill-2 {
+  position: relative;
+  
+}
+.bar__container-2{
+  width: 65%;
+  margin: 5px;
+}
+  .skill-2::after {
+    content: '65%';
+    position: absolute;
+    right:0px;
+  }
+
+.skill-3 {
+ 
+  position: relative;
+  
+ 
+}
+.bar__container-3{
+  width: 93%;
+  margin: 5px;
+}
+ .skill-3::after {
+    content: '93%';
+    position: absolute;
+    right: 0px;
+  }
+
+
+  .skill-4 {
+ 
+    position: relative;
+    
+   
+  }
+  .bar__container-4{
+    width: 66%;
+    margin: 5px;
+  }
+   .skill-4::after {
+      content: '66%';
+      position: absolute;
+      right: 0px;
+    }
+  
+
+ .skill-5{
+    position: relative;
+  }
+  .bar__container-5{
+    width: 76%;
+    margin: 5px;
+  }
+   .skill-5::after {
+      content: '76%';
+      position: absolute;
+      right: 0px;
+    }
+
+    .skill-6{
+      position: relative;
+    }
+    .bar__container-6{
+      width: 53%;
+      margin: 5px;
+    }
+     .skill-6::after {
+        content: '53%';
+        position: absolute;
+        right: 0px;
+      }
+
+      .skill-7{
+        position: relative;
+      }
+      .bar__container-7{
+        width: 46%;
+        margin: 5px;
+      }
+       .skill-7::after {
+          content: '46%';
+          position: absolute;
+          right: 0px;
+        }
+      .skill-8{
+        position: relative;
+      }
+      .bar__container-8{
+        width: 50%;
+        margin: 5px;
+      }
+       .skill-8::after {
+          content: '50%';
+          position: absolute;
+          right: 0px;
+        }
+
+  .glow-on-hover {
+  
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    animation: glowing 20s linear infinite;
+    background: #111;
+    left: 0;
+    transition: opacity .3s ease-in-out;
+    top: 0;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
 }
 
-.projects-button {
-  padding: 0.75em 1.25em;
-  background-color: whitesmoke;
-  opacity: 0.9;
-  width: 10em;
-  color: black;
-  cursor: pointer;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.Projects {
-  margin: 1em 0;
-}
-
-.active {
-  background-color: #333333;
-  color: whitesmoke;
-}
-
-.a:hover{
-  text-decoration: none !important;
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }
